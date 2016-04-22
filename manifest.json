@@ -4,6 +4,8 @@
   "name": "HTML5 Video Speed Control",
   "description": "Speed controls for html5 video.",
   "version": "1.38",
+  // 972 is "WRC" on telephone
+  "version": "1.38.972.1",
   "permissions": [
     "activeTab"
   ],
