@@ -138,14 +138,14 @@ sophis.VideoControl.prototype.enterDocument = function() {
  * Increases the current video's playback rate.
  */
 sophis.VideoControl.prototype.decreaseSpeed = function () {
-  this.videoEl_.playbackRate -= 0.10;
+  this.videoEl_.playbackRate -= 0.05;
 };
 
 /**
  * Decreases the current video's playback rate.
  */
 sophis.VideoControl.prototype.increaseSpeed = function () {
-  this.videoEl_.playbackRate += 0.10;
+  this.videoEl_.playbackRate += 0.05;
 };
 
 /**
